@@ -7,6 +7,7 @@ bodyParser = require('body-parser');
 // connect to MongoDB 
 
 mongoose.Promise = global.Promise; 
+mongoose.set('useFindAndModify', false);
 mongoose.connect(database.db, {
     useNewUrlParser: true,
     useUnifiedTopology: true
