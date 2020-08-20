@@ -1,5 +1,11 @@
 # student_list
 
+This was my first product using Vue.JS. 
+
+### Intent ###
+
+Provide a student directory where contact information can be stored in, edited, retrieved and removed from a Mongo database. 
+
 ## Project setup
 ```
 npm install
