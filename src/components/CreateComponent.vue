@@ -5,7 +5,7 @@
             <form @submit.prevent="handleSubmitForm">
                 <div class="form-group">
                     <label>Name</label>
-                    <input type="text" class="form-control" v-model="student.name" required>
+                    <input type="text" class="name" v-model="student.name" required>
                 </div>
                 <div class="form-group">
                     <label>Email</label>
@@ -16,9 +16,13 @@
                     <input type="text" class="form-control" v-model="student.phone" required>
                 </div>
                 <div class="form-group">
-                    <button class="btn btn-danger btn-block">Create</button>
+                    <button data-cy="button" class="btn btn-danger btn-block">Create</button>
                 </div> 
             </form>
+            <ul data-cy="links">
+                <li><a href="www.google.com">google</a></li>
+                <li><a href="www.google.com">google</a></li>
+            </ul>
         </div>
     </div>
 </template>
