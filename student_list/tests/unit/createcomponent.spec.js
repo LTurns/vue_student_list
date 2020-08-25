@@ -1,12 +1,11 @@
 import { mount } from '@vue/test-utils'
 // this mounts the component for you - and child components.
 
-{ shallowMount}
-// mounts only the main component - not child components. 
-// Shallow mount stubs out any child components - isolated testing.
+// { shallowMount}
+// // mounts only the main component - not child components. 
+// // Shallow mount stubs out any child components - isolated testing.
 
-
-import CreateComponent from '../src/components/CreateComponent.vue'
+import CreateComponent from '../../src/components/CreateComponent.vue'
 
 describe('CreateComponent', () => {
  // Inspect the raw component options
